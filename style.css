@@ -276,3 +276,35 @@ campus-col img{
     margin-top: 15px;
 
 }
+.testimonials-col .fa{
+    color: #f44336;
+}
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0;
+        margin-right: 15px;
+    }  
+}
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 10px;
+
+
+}
+.cta h1{
+    color: #fff;
+    padding: 0;
+    margin-bottom: 40px;
+}
+@media(max-width:700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
